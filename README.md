@@ -33,14 +33,17 @@ SkimWing is a terrain-following fixed-wing drone designed and built by Brad Wass
 
 ## Repo Structure
 
-skimwing/
-├── hardware/               # BOM, wiring diagrams, physical build photos
-├── simulation/             # PX4 SITL configs, Gazebo world files
-├── controller_design/      # LQR derivation, Simulink/Python tuning
-├── flight_logs/            # Real-world data logs + performance plots
-├── notebooks/              # Estimation and control analysis in Jupyter
-├── docs/                   # Final report, slides, diagrams
-└── images/                 # Plots, terrain tracking visuals, build photos
+- `skimwing/`
+  - `README.md` — Project overview and instructions
+  - `hardware/` — BOM, wiring diagrams, build photos
+  - `firmware/` — PX4 parameters, mixer files, airframe config
+  - `simulation/` — Gazebo worlds, SITL launch configs
+  - `controller_design/` — LQR/PID design, Simulink models, tuning logs
+  - `notebooks/` — Jupyter analysis: estimation, control, logs
+  - `flight_logs/` — .ulg/.csv logs, plots, tracking analysis
+  - `docs/` — Final report, diagrams, presentations
+  - `media/` — Demo GIFs, plots, video stills
+
 
 
 ---
@@ -70,6 +73,6 @@ MIT License — free to fork, remix, and use with attribution.
 
 ## Contact
 
-Brad Wassef • Aerospace Engineering @ UIUC  
+Bradley Wassef • Aerospace Engineering @ UIUC  
 [LinkedIn](https://www.linkedin.com/in/bwassef/) • bwassef2@illinois.edu
 
